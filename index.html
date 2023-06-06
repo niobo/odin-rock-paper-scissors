@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="header">
+        <h1>Rock - Paper - Scissors</h1>
+    </div>
+
+    <div class="content">
+        <div class="player-side">
+            <button data-key="rock" type="submit">
+                <img src="./img/rock.png" alt="rock">
+            </button>
+            <button data-key="paper" type="submit">
+                <img src="./img/paper.png" alt="paper">
+            </button>
+            <button data-key="scissors" type="submit">
+                <img src="./img/scissors.png" alt="scissors">
+            </button>
+        </div>
+
+        <div class="score">
+            <p>Score</p>
+            <div class="score-container">
+                <div class="player-score">0</div>
+                <div class="computer-score">0</div>
+            </div>
+            <p class="winner"></p>
+            <div class="reset"></div>
+        </div>
+
+        <div class="computer-side">
+            <button type="submit">
+                <img src="./img/rock.png" alt=rock"">
+            </button>
+            <button type="submit">
+                <img src="./img/paper.png" alt=rock"">
+            </button>
+            <button type="submit">
+                <img src="./img/scissors.png" alt=rock"">
+            </button>
+        </div>
+    </div>
     <!-- SCRIPTS -->
     <script src="./script.js"></script>
 </body>
